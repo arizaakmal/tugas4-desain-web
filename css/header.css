@@ -1,0 +1,24 @@
+/* Warna */
+:root {
+  --crimson: #d7263dff;
+  --citrine: #dbcc1dff;
+  --aero: #32b7dbff;
+  --giants-orange: #f46036ff;
+  --space-cadet: #2e294eff;
+}
+
+html,
+body {
+  background-color: var(--aero);
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 10%;
+}
+
+a {
+  text-decoration: none;
+  width: 50%;
+}

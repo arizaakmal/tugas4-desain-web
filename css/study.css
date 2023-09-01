@@ -1,0 +1,49 @@
+/* Warna */
+:root {
+  --crimson: #d7263dff;
+  --citrine: #dbcc1dff;
+  --aero: #32b7dbff;
+  --giants-orange: #f46036ff;
+  --space-cadet: #2e294eff;
+}
+
+@font-face {
+  font-family: "Poppins", sans-serif;
+  src: url(poppins.ttf);
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: var(--aero);
+  text-shadow: 2px 2px 5px var(--aero);
+  margin-bottom: 0;
+}
+
+html,
+body {
+  background-color: var(--crimson);
+  color: var(--citrine);
+}
+
+hr {
+  border: 2px solid var(--giants-orange);
+  width: 20%;
+}
+
+table {
+  background-color: var(--aero);
+  margin: 30px auto 0;
+}
+.table-top {
+  background-color: var(--space-cadet);
+}
+
+td {
+  text-align: center;
+  vertical-align: middle;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}

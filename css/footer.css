@@ -1,0 +1,28 @@
+/* Warna */
+:root {
+  --crimson: #d7263dff;
+  --citrine: #dbcc1dff;
+  --aero: #32b7dbff;
+  --giants-orange: #f46036ff;
+  --space-cadet: #2e294eff;
+}
+
+@font-face {
+  font-family: "Poppins", sans-serif;
+  src: url(poppins.ttf);
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  background-color: var(--citrine);
+}
+
+p {
+  text-align: center;
+  font-size: 15px;
+  color: var(--space-cadet);
+}

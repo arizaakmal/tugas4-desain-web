@@ -1,0 +1,74 @@
+/* Warna */
+:root {
+  --crimson: #d7263dff;
+  --citrine: #dbcc1dff;
+  --aero: #32b7dbff;
+  --giants-orange: #f46036ff;
+  --space-cadet: #2e294eff;
+}
+
+@font-face {
+  font-family: "Poppins", sans-serif;
+  src: url(poppins.ttf);
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: var(--aero);
+  text-shadow: 2px 2px 5px var(--aero);
+  margin-bottom: 0;
+}
+
+html,
+body {
+  background-color: var(--crimson);
+  color: var(--citrine);
+}
+
+hr {
+  border: 2px solid var(--giants-orange);
+  width: 20%;
+}
+
+fieldset,
+legend {
+  margin-top: 10px;
+  border: 3px dashed var(--citrine);
+  border-radius: 5px;
+  padding: 5px;
+}
+.title {
+  color: var(--citrine);
+  text-shadow: 1px 1px 2px var(--citrine), 0 0 25px var(--crimson), 0 0 5px var(--giants-orange);
+  font-size: large;
+}
+.sub-title {
+  color: var(--giants-orange);
+  text-shadow: 1px 1px 2px var(--citrine), 0 0 25px var(--crimson), 0 0 5px var(--giants-orange);
+  font-size: large;
+}
+
+img {
+  margin-top: 20px;
+}
+
+img:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+a.tangan {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.circle-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+}
